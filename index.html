@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>Naif Alenizi</h1>
+        <p>Software Engineering Student</p>
+        <p id="greeting-message"></p>
+    </header>
+
+    <nav class="tabs">
+        <button class="tab-btn active" data-target="about">About</button>
+        <button class="tab-btn" data-target="projects">Projects</button>
+        <button class="tab-btn" data-target="contact">Contact</button>
+    </nav>
+
+    <div class="theme-button-container">
+        <button id="theme-toggle">Toggle Theme</button>
+    </div>
+
+    <main>
+        <section id="about" class="tab-section active-section">
+            <h2>About Me</h2>
+
+            <img src="rat.webp" alt="Profile Image" class="profile-img">
+
+            <p>
+                I am a software engineering student interested in web development and technology.
+                I enjoy learning new skills and building simple projects to improve my experience.
+            </p>
+        </section>
+
+        <section id="projects" class="tab-section">
+            <h2>Projects</h2>
+
+            <div class="project">
+                <h3>Project One</h3>
+                <p>A simple web project built using HTML and CSS.</p>
+                <img src="https://picsum.photos/300/200?random=1" alt="Project 1">
+            </div>
+
+            <div class="project">
+                <h3>Project Two</h3>
+                <p>A small JavaScript-based interactive webpage.</p>
+                <img src="https://picsum.photos/300/200?random=2" alt="Project 2">
+            </div>
+        </section>
+
+        <section id="contact" class="tab-section">
+            <h2>Contact Me</h2>
+
+            <form id="contact-form">
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name"><br><br>
+
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email"><br><br>
+
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="4"></textarea><br><br>
+
+                <button type="submit">Send</button>
+            </form>
+
+            <p id="form-message"></p>
+        </section>
+    </main>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
