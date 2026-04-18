@@ -30,15 +30,15 @@ The goal of this assignment is to improve the website by adding advanced functio
 ## Project Structure
 
 assignment-3/
-├── README.md  
-├── index.html  
-├── css/  
-│   └── styles.css  
-├── js/  
-│   └── script.js  
-├── docs/  
-│   ├── ai-usage-report.md  
-│   └── technical-documentation.md  
+├── README.md
+├── index.html
+├── css/
+│   └── styles.css
+├── js/
+│   └── script.js
+├── docs/
+│   ├── ai-usage-report.md
+│   └── technical-documentation.md
 
 ## How to Run Locally
 
@@ -67,11 +67,13 @@ Compared to Assignment 2, this version includes:
 - time-on-site counter
 - clearer user feedback messages
 
+## Repository Link
+
+https://github.com/kjmoly/202154090-naifalenizi-assignment3
+
 ## Live Demo
 
-The project can be deployed using GitHub Pages.
-
-After enabling GitHub Pages, the live link can be added here.
+https://kjmoly.github.io/202154090-naifalenizi-assignment3/
 
 ## Notes
 
